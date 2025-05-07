@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Caixa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 Scanner ler = new Scanner(System.in);
 int escolha, saldo = 0;
 System.out.println("Escolha o que deseja fazer:  \r\n"
@@ -29,6 +29,7 @@ escolha = ler.nextInt();
 	break;
  }
  while (escolha != 4);
+ler.close();
 	}
 
 }
